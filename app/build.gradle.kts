@@ -21,10 +21,15 @@ android {
     }
     defaultConfig {
 
+        val geminiApiKey =
+            project.findProperty(
+                "GEMINI_API_KEY"
+            ) as String?
+
         buildConfigField(
             "String",
             "GEMINI_API_KEY",
-            "\"${project.properties["GEMINI_API_KEY"]}\""
+            "\"${geminiApiKey}\""
         )
 
         applicationId = "com.example.chatbot"
