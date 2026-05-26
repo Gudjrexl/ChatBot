@@ -25,15 +25,6 @@ Tech Stack:
  Google Gemini AI
  Google AdMob
 
-Architecture Flow:
-
-UI
-↓
-ViewModel
-↓
-Repository
-↓
-Remote API / Local Database
 
 This project was created to demonstrate modern Android app development practices including API integration, local data persistence, clean architecture, and AdMob monetization integration.
 
